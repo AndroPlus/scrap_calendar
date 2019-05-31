@@ -60,7 +60,7 @@ class MyTest(object):
 		#		break
 
 	def getParentUrls(self):	
-		url = "https://www.dinamalar.com/dailysheetcalendar.asp?year="+str(self.currentYear)+"&month="+str(self.currentMonthText)+"&date="+str(self.currentDay)
+		url = "<NEWSPAPER_URL>"+str(self.currentYear)+"&month="+str(self.currentMonthText)+"&date="+str(self.currentDay)
 		print("Url -->"+url)
 		self.driver.get(url)
 		self.driver.implicitly_wait(5)
